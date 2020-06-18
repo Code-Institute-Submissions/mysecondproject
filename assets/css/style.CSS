@@ -1,0 +1,75 @@
+
+
+
+
+/* ----------------------------------------Images */
+
+.kettle {
+    background: url("../figures/teapot.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 200px;
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1px;
+  width: 50px;
+  
+}
+
+.nut {
+     background: url("../figures/nut.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10px;
+    
+    
+}
+
+/* ------------------------ Formatting */
+.tab-width {
+    margin: 5px;
+    width: 70%;
+    padding: 25px;
+    color: black;
+    
+    
+}
+
+.center {
+    margin: 25px;
+}
+
+.margin {
+    margin: 15px;
+}
+
+/* ------------------------ Colour */
+.bg-header {
+    background-color: #179db8;
+}
+
+.hd-colour {
+    color: #96ff00;
+}
+
+.tb-colour {
+    color: #fafafa;
+}
+
+.sec-colour {
+    color: #96ff00;
+}
+
+.bg-color-name-title {
+    background-color: #179db8;
+}
+
+.txt-color {
+    color: #96ff00;
+}
+
+.sp-color {
+    color: #96ff00;
+    
+}
