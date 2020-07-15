@@ -30,7 +30,7 @@ div.transbox {
 
 
 div.transbox h1 {
-  margin: 30px;
+  margin: 50px;
   line-height: 80%;
   font-weight: bold;
   color: #000000;
@@ -49,6 +49,14 @@ div.transbox p {
   font-weight: bold;
   color: #000000;
 }
+
+div.transbox ul li {
+  margin: 60px;
+  line-height: 0.5%;
+  font-weight: bold;
+  color: #000000;
+}
+
 
 .nut {
      background: url("../figures/nut.png");
