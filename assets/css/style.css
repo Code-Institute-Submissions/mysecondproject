@@ -5,15 +5,49 @@
 /* ----------------------------------------Images */
 
 .kettle {
-    background: url("../figures/teapot.png");
+    background: url("../figures/comicbike.png");
     background-position: center;
     background-repeat: no-repeat;
-    max-height: 200px;
+    object-fit: scale-down;
+    
     border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 1px;
-  width: 50px;
-  
+    border-radius: 4px;
+    padding: 1px;  
+}
+
+div.background {
+    background-image: url("../figures/mtbjumping.png");
+    border: 2px solid #179db8;
+    object-fit: fill;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+
+div.transbox h1 {
+  margin: 30px;
+  line-height: 80%;
+  font-weight: bold;
+  color: #000000;
+}
+
+div.transbox h2 {
+  margin: 60px;
+  line-height: 80%;
+  font-weight: bold;
+  color: #000000;
+}
+
+div.transbox p {
+  margin: 60px;
+  line-height: 0.5%;
+  font-weight: bold;
+  color: #000000;
 }
 
 .nut {
