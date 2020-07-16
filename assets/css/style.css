@@ -15,6 +15,17 @@
     padding: 1px;  
 }
 
+.QR {
+    background: url("../figures/QRWheel.png");
+    background-position: inline;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: auto;
+    padding: 1px;
+    object-fit: scale-down;  
+}
+
+
 div.background {
     background-image: url("../figures/mtbjumping.png");
     border: 2px solid #179db8;
@@ -45,14 +56,14 @@ div.transbox h2 {
 
 div.transbox p {
   margin: 60px;
-  line-height: 0.5%;
+  line-height: 1.1;
   font-weight: bold;
   color: #000000;
 }
 
 div.transbox ul li {
   margin: 60px;
-  line-height: 0.5%;
+  line-height: 1.01;
   font-weight: bold;
   color: #000000;
 }
@@ -76,6 +87,14 @@ div.transbox ul li {
     color: black;
     
     
+}
+
+.white-colour {
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 10px;
+    color: white;
+
+
 }
 
 .center {
@@ -115,3 +134,5 @@ div.transbox ul li {
     color: #96ff00;
     
 }
+
+
