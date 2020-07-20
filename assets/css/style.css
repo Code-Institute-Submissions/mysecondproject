@@ -27,16 +27,34 @@
 }
 
 .Bolted {
-    background: url("../figures/15mmBolte.png");
+    background: url("../figures/Bolted.png");
     background-position: inline;
     background-repeat: no-repeat;
     width: 400px;
-    height: auto;
+    height: 200px;
     padding: 1px;
-    object-fit: fill;  
+    object-fit: scale-down;  
 }
 
+.smallBolt {
+    background: url("../figures/smallBolt.png");
+    background-position: inline;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    padding: 1px;
+    object-fit: scale-down;  
+}
 
+.largeBolt {
+    background: url("../figures/largeBolt.png");
+    background-position: inline;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    padding: 1px;
+    object-fit: scale-down;  
+}
 
 div.background {
     background-image: url("../figures/mtbjumping.png");
@@ -149,4 +167,7 @@ div.transbox ul li {
     
 }
 
-
+.black {
+    color:black;
+    
+}
