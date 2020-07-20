@@ -134,7 +134,15 @@ div.transbox ul li {
 }
 
 .margin {
-    margin: 15px;
+    margin-top: 0px;
+    margin: 25px;
+}
+
+.marg {
+    margin-top: 0px;
+    margin-left: 70px;
+
+
 }
 
 /* ------------------------ Colour */
