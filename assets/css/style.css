@@ -134,6 +134,7 @@ div.transbox ul li {
 }
 
 .margin {
+    padding: 0px 0px 0px 0px;
     margin-top: 0px;
     margin: 25px;
 }
