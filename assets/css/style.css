@@ -40,8 +40,8 @@
     background: url("../figures/smallBolt.png");
     background-position: inline;
     background-repeat: no-repeat;
-    width: 400px;
-    height: 200px;
+    width: 200px;
+    height: 300px;
     padding: 1px;
     object-fit: scale-down;  
 }
@@ -141,6 +141,12 @@ div.transbox ul li {
 .marg {
     margin-top: 0px;
     margin-left: 70px;
+
+
+}
+.right {
+    text-align: right;
+
 
 
 }
