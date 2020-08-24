@@ -70,9 +70,9 @@
 
 
 div.background {
-    background-image: url("../figures/mtbjumping.png");
+    background-image: url("../figures/mtb.png");
     border: 2px solid #179db8;
-    object-fit: fill;
+    background-size: 100% 100%;
 }
 
 div.transbox {
