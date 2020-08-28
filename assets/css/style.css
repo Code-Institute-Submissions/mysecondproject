@@ -166,13 +166,13 @@ div.transbox ul li {
 
 }
 
-/* ------------------------ Colour */
+/* ----------- #96ff00------------- Colour */
 .bg-header {
     background-color: #179db8;
 }
 
 .hd-colour {
-    color: #96ff00;
+    color:black;
     font-size: 8vw;
 }
 
@@ -204,7 +204,7 @@ div.transbox ul li {
 }
 
 .sec-colour {
-    color: #96ff00;
+    color: black;
     font-size: 4vw;
 
 }
@@ -214,12 +214,12 @@ div.transbox ul li {
 }
 
 .txt-color {
-    color: #96ff00;
-    font-size: 2vx;
+    color:black;
+    font-size: 3vx;
 }
 
 .sp-color {
-    color: #96ff00;
+    color: black;
     font-size: 2vx;
     
 }
