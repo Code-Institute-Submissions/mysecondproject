@@ -60,11 +60,10 @@
     background: url("../figures/qropclos.jpg");
     background-position: inline;
     background-repeat: no-repeat;
-    width: 500px;
+    width: 400px;
     height: 200px;
     padding: 1px;
-    object-fit: scale-down;  
-    margin-top: 10px;
+    object-fit: scale-down;
 }
 
 
@@ -125,7 +124,7 @@ div.transbox ul li {
 /* ------------------------ Formatting */
 .tab-width {
     margin: 5px;
-    width: 70%;
+    width: 100%;
     padding: 25px;
     color: black;
     
