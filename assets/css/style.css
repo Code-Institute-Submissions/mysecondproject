@@ -14,6 +14,14 @@
     border-radius: 4px;
     padding: 1px;  
 }
+.slider {
+    background: url("../figures/serviceslider.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    
+}
+
 
 .QR {
     background: url("../figures/qrwheel.png");
