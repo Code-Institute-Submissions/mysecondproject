@@ -82,6 +82,14 @@ div.background {
     background-size: 100% 100%;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+/* ----------------------------------------Text Properties */
+
 div.transbox {
   margin: 30px;
   background-color: #ffffff;
@@ -208,6 +216,11 @@ div.transbox ul li {
     color: #96ff00;
     font-size: 6vw;
 
+}
+
+.text-colour {
+    color: #96ff00;
+        
 }
 
 .ac-colour {
