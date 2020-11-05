@@ -77,52 +77,6 @@ div.background {
 
 /* ----------------------------------------Text Properties */
 
-div.transbox {
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.6;
-}
-
-
-div.transbox h1 {
-  margin: 50px;
-  line-height: 80%;
-  font-weight: bold;
-  color: #000000;
-}
-
-div.transbox h2 {
-  margin: 60px;
-  line-height: 80%;
-  font-weight: bold;
-  color: #000000;
-}
-
-div.transbox p {
-  margin: 60px;
-  line-height: 1.1;
-  font-weight: bold;
-  color: #000000;
-}
-
-div.transbox ul li {
-  margin: 60px;
-  line-height: 1.01;
-  font-weight: bold;
-  color: #000000;
-}
-
-
-.nut {
-     background: url("../figures/nut.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 10px;
-    
-    
-}
 
 /* ------------------------ Formatting */
 .tab-width {
@@ -134,30 +88,11 @@ div.transbox ul li {
     
 }
 
-.centText {
+.centerText {
+    text-align: center;
     text-align: center;
     
-    
 }
-
-.white-colour {
-    padding: 0px 0px 0px 0px;
-    margin-top: 1px;
-    margin-bottom: 0px;
-    color:  white;
-    margin: 65px;
-    font-size: 2vx;
-    font-weight: bold;
-}
-
-.center {
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-    
 
 .margin {
     padding: 0px 0px 0px 0px;
@@ -175,10 +110,10 @@ div.transbox ul li {
 .right {
     text-align: right;
 
-
-
 }
+
 /*----Nav Bar-----*/
+
 .navbar-custom {
     background-color:  #179db8;
 }
