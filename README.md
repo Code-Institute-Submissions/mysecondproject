@@ -1,39 +1,33 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# One Stop Bike Shop
+### I have designed this to give the novice bike owner some small amounts of information to help them maintain their bike. The site also has Bike, Tool, and clothing sales, none of these work but they could be further developed in other project on the course.
+### The site could be further developed to show clips of maintenance activities as well as the photos and text that detail the task.
+# UX
+### The basic idea of the site is to enable someone with limited knowledge of a mountain bike to be able to maintain their bike and to ensure that ii it safe before ever ride. So far I have only populated the Front Wheel section of the site.
+### The basic format of the site was something that I have used many times in the IETPs that I have created during my work as a technical author. As a result of this I have not used any other forms of design tools as I knew how I wanted the site to look and the functionality I thought it needed in order to fit into assignment criteria.
+### This site was a template taken from Bootstrap and then adapted for the needs of the site, I have some rough wireframes that I created. 
+<img src="/assets/figures/Desktop.png" style="margin: 1px;">;
+### The is the wirfame for the desktop applications, this allows for the section that defines the sales items to be displayed in three columns.
+<img src="/assets/figures/Mobile.png" style="margin: 1px;">;
+### This wireframe is for mobile divices and allows the sales section to be displayed in a single column, this is due to the smaller screen sizes of these devices.
+### The site was developed to give the user access to some basic maintenance information, that could be changed once a month for example, then giving the new bike owners some interesting and useful things to buy.
+# Features
+### Once the site is finished the site will allow novice and experienced users to maintain their bikes, using some of the detailed procedures and the sales section of the site to buy the tools they may need.
+### The site caters for both male and female riders, the site could be developed to have video clips of the maintenance tasks.
+### Also places to visit could be added, this could be broken down into easy route and placing harder routes in clearly marks sections of the site.
 
-Welcome djrowley2104,
+### I used nothing too fancy, just some basic Bootstrap and links to pages, the site is a very simple one. I want to keep things simple, as I feel complicating things adds a layer of confusion which no one needs.
+# Testing
+### I have tried to make sure that the site behaves the same way for all type of devices using the Bootstrap grid system.
+###  I would have tested the site on a focus group, but as the site is not finished and finishing it would take lots more time than I have, I have not used any third party groups.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+# Deployment
+### My site will be deployed using GitHub Pages. We seem to have been led into using GitHub on the course and as I know of no other way of hosting this is the one chosen.
 
-## Gitpod Reminders
+# Credits
+## Content
+### hhh
+## Media
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
