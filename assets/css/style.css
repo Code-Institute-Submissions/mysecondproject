@@ -69,6 +69,7 @@ div.background {
     background-size: 100% 100%;
 }
 
+/*---- Section of text taken from W3C site ----*/
 .center {
   display: block;
   margin-left: auto;
@@ -112,7 +113,7 @@ div.background {
 
 }
 
-/*----Nav Bar-----*/
+/*----Nav Bar---Taken from Bootstrap, and unused in this project as it did not work--*/
 
 .navbar-custom {
     background-color:  #179db8;
@@ -208,14 +209,5 @@ div.background {
     
 }
 
-.btn-google {
-  color: white;
-  background-color: #ea4335;
-}
-
-.btn-facebook {
-  color: white;
-  background-color: #3b5998;
-}
 
 
