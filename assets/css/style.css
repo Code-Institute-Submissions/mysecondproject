@@ -167,8 +167,13 @@ div.transbox ul li {
 }
 
 .center {
-    margin: 25px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
+    
 
 .margin {
     padding: 0px 0px 0px 0px;
@@ -189,6 +194,24 @@ div.transbox ul li {
 
 
 }
+/*----Nav Bar-----*/
+.navbar-custom {
+    background-color:  #179db8;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #179db8;
+}
+
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:focus .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+        color: #179db8;
+}
+
+
+
 
 /* ----------- #96ff00------------- Colour */
 .bg-header {
