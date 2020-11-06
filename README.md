@@ -18,13 +18,13 @@
 ### I used nothing too fancy, just some basic Bootstrap and links to pages, the site is a very simple one. I want to keep things simple, as I feel complicating things adds a layer of confusion which no one needs.
 # Testing
 ### I have tried to make sure that the site behaves the same way for all type of devices using the Bootstrap grid system.
-### The site was code was tested in the W3C online validator and lighthouse. The W3C validator found many erros that I was able to correct.
+### The site was code was tested in the W3C online validator and lighthouse. The W3C validator found many errors that I was able to correct. They would not have been found without the use of this programme. Some of these errors were correced after running the second lighthouse report, but after correcting them, the errors had not effect on the subsequent lighthouse reports.
 ### The first lighthouse report can be seen below:
 <img src="/assets/figures/lighthousereport.png" style="margin: 1px;">;
 ### From this report you can clearly see that the site is not woring as fast as it could be, I therefore made some changes to the site.
 ### Below is the second lighthouse report;
-<img src="/assets/figures/lighthousesecondreport.png" style="margin: 1px;">;
-### From this report you can learly see that the changes have made the site much faster, light has been of great help in making my site faster.
+<img src="/assets/figures/lighhousesecondreport.png" style="margin: 1px;">;
+### From this report you can learly see that the changes have made the site much faster, light has been of great help in making my site faster and more efficient.
 ### I would have tested the site on a focus group, but as the site is not finished and finishing it would take lots more time than I have, I have not used any third party groups.
 
 # Deployment
