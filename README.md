@@ -18,7 +18,14 @@
 ### I used nothing too fancy, just some basic Bootstrap and links to pages, the site is a very simple one. I want to keep things simple, as I feel complicating things adds a layer of confusion which no one needs.
 # Testing
 ### I have tried to make sure that the site behaves the same way for all type of devices using the Bootstrap grid system.
-###  I would have tested the site on a focus group, but as the site is not finished and finishing it would take lots more time than I have, I have not used any third party groups.
+### The site was code was tested in the W3C online validator and lighthouse. The W3C validator found many erros that I was able to correct.
+### The first lighthouse report can be seen below:
+<img src="/assets/figures/lighthousereport.png" style="margin: 1px;">;
+### From this report you can clearly see that the site is not woring as fast as it could be, I therefore made some changes to the site.
+### Below is the second lighthouse report;
+<img src="/assets/figures/lighthousesecondreport.png" style="margin: 1px;">;
+### From this report you can learly see that the changes have made the site much faster, light has been of great help in making my site faster.
+### I would have tested the site on a focus group, but as the site is not finished and finishing it would take lots more time than I have, I have not used any third party groups.
 
 # Deployment
 ### My site will be deployed using GitHub Pages. We seem to have been led into using GitHub on the course and as I know of no other way of hosting this is the one chosen.
