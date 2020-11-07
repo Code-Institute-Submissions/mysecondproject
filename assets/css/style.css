@@ -2,72 +2,6 @@
 
 /* ----------------------------------------Images */
 
-.slider {
-    background: url("../figures/serviceslider.png");
-    background-position: center;
-    background-repeat: no-repeat;
-     
-}
-
-
-.QR {
-    background: url("../figures/qrwheel.png");
-    background-position: inline;
-    background-repeat: no-repeat;
-    width: 500px;
-    height: 200px;
-    padding: 1px;
-    object-fit: scale-down;  
-    margin-top: 10px;
-}
-
-.Bolted {
-    background: url("../figures/Bolted.png");
-    background-position: inline;
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 200px;
-    padding: 1px;
-    object-fit: scale-down;  
-}
-
-.smallBolt {
-    background: url("../figures/smallBolt.png");
-    background-position: inline;
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 300px;
-    padding: 1px;
-    object-fit: scale-down;  
-}
-
-.largeBolt {
-    background: url("../figures/largeBolt.png");
-    background-position: inline;
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 200px;
-    padding: 1px;
-    object-fit: scale-down;  
-}
-
-.open {
-    background: url("../figures/qropclos.jpg");
-    background-position: inline;
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 200px;
-    padding: 1px;
-    object-fit: scale-down;
-}
-
-
-
-div.background {
-    background-image: url("../figures/mtb.png");
-    border: 2px solid #179db8;
-    background-size: 100% 100%;
-}
 
 /*---- Section of text taken from W3C site ----*/
 .center {
@@ -75,8 +9,37 @@ div.background {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+/*----Nav Bar---Taken from Bootstrap, and unused in this project as it did not work--*/
+
+/*--.navbar-custom {
+    background-color:  #179db8;
+}*/
+
+
+.navbar-toggler-icon {
+    color: lightgreen;
+    border-color: lightgreen;
+
+}
+
+.navbar-light {
+    color: #96ff00;
+
+
+
+}
+
+
+.custom-toggler.navbar-toggler { 
+            border-color: lightgreen; 
+            color: lightgreen;
+        } 
+
 
 /* ----------------------------------------Text Properties */
+
 
 
 /* ------------------------ Formatting */
@@ -89,7 +52,7 @@ div.background {
     
 }
 
-.centerText {
+.center-Text {
     text-align: center;
         
 }
@@ -112,35 +75,9 @@ div.background {
 
 }
 
-/*----Nav Bar---Taken from Bootstrap, and unused in this project as it did not work--*/
-
-.navbar-custom {
-    background-color:  #179db8;
-}
-
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-    color: #179db8;
-}
-
-.navbar-light .nav-item.active .nav-link,
-.navbar-light .nav-item:focus .nav-link,
-.navbar-light .nav-item:hover .nav-link {
-        color: #179db8;
-}
-
-.carousel .carousel-indicators ol {
-  background-color: #fff;
-  background-color: #96ff00;
-}
-
-.carousel .carousel-indicators .active {
-  background-color: #444;
-}
-
-
 
 /* ----------- #96ff00------------- Colour */
+
 .bg-header {
     background-color: #179db8;
 }
@@ -168,7 +105,7 @@ div.background {
 
 }
 
-.text-colour {
+.text-colour-ltgr {
     color: #96ff00;
         
 }
@@ -178,35 +115,28 @@ div.background {
     font-size: 2vw;
 }
 
-.tb-colour {
-    color: #fafafa;
+
+/*--- media queries ---*/
+@media all and (max-width: 1200px) {
+  img.large {
+    height: 300;
+    width: 300;
+  }
+}
+@media all and (max-width: 900px) {
+  img.medium {
+    height: 200;
+    width: 200;
+  }
 }
 
-.sec-colour {
-    color: black;
-    font-size: 4vw;
+@media all and (max-width: 500px) {
+  img.small {
+    height: 100;
+    width: 100;
+  }
+
+
 
 }
-
-.bg-color-name-title {
-    background-color: #179db8;
-}
-
-.txt-color {
-    color:black;
-    font-size: 3vx;
-}
-
-.sp-color {
-    color: black;
-    font-size: 2vx;
-    
-}
-
-.black {
-    color:black;
-    
-}
-
-
 
