@@ -119,22 +119,21 @@
 /*--- media queries ---*/
 @media screen and (min-width: 950px) {
   .large {
-    height: 150;
-    width: 150;
-    border-radius: 50%;
-  }
+    height: 150px;
+    width: 150px;
+    }
 }
 @media screen and (max-width: 900px) {
   .medium {
-    height: 100;
-    width: 100;
+    height: 100px;
+    width: 100px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .small {
-    height: 75;
-    width: 75;
+    height: 75px;
+    width: 75px;
   }
 
 
