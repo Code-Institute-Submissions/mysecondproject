@@ -9,6 +9,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  margin-top: 10px;
 }
 
 /*----Nav Bar---Taken from Bootstrap, and unused in this project as it did not work--*/
@@ -119,21 +120,21 @@
 /*--- media queries ---*/
 @media all and (max-width: 1200px) {
   img.large {
-    height: 300;
-    width: 300;
+    height: 300px;
+    width: 300px;
   }
 }
 @media all and (max-width: 900px) {
   img.medium {
-    height: 200;
-    width: 200;
+    height: 150px;
+    width: 150[x];
   }
 }
 
 @media all and (max-width: 500px) {
   img.small {
-    height: 100;
-    width: 100;
+    height: 75px;
+    width: 75px;
   }
 
 
