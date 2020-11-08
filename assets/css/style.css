@@ -117,23 +117,24 @@
 
 
 /*--- media queries ---*/
-@media all and (max-width: 1200px) {
-  img.large {
-    height: 300;
-    width: 300;
+@media screen and (min-width: 950px) {
+  .large {
+    height: 150;
+    width: 150;
+    border-radius: 50%;
   }
 }
-@media all and (max-width: 900px) {
-  img.medium {
-    height: 200;
-    width: 200;
+@media screen and (max-width: 900px) {
+  .medium {
+    height: 100;
+    width: 100;
   }
 }
 
-@media all and (max-width: 500px) {
-  img.small {
-    height: 100;
-    width: 100;
+@media screen and (max-width: 500px) {
+  .small {
+    height: 75;
+    width: 75;
   }
 
 
