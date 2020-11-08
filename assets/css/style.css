@@ -118,44 +118,48 @@
 
 
 /*--- media queries ---*/
-<<<<<<< HEAD
-@media all and (max-width: 1200px) {
+
+/*--- Media Query added to help make the images behave better for smaller screens ---*/
+@media all and (min-width: 950px) {
   img.large {
     height: 300px;
     width: 300px;
   }
 }
+
+@media all and (min-width: 950px) {
+  img.csl-large {
+    height: 250px;
+    width: auto;
+  }
+}
+
+
 @media all and (max-width: 900px) {
   img.medium {
     height: 150px;
-    width: 150[x];
+    width: 150px;
   }
 }
+
+@media all and (max-width: 900px) {
+  img.csl-medium {
+    height: 150px;
+    width: auto;
+  }
+}
+
 
 @media all and (max-width: 500px) {
   img.small {
-=======
-@media screen and (min-width: 950px) {
-  .large {
-    height: 150px;
-    width: 150px;
-    }
-}
-@media screen and (max-width: 900px) {
-  .medium {
-    height: 100px;
-    width: 100px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .small {
->>>>>>> c232eb5073f70d6413690d5b07db513a138633a1
     height: 75px;
     width: 75px;
   }
-
-
-
+}
+@media all and (max-width: 500px) {
+  img.csl-small {
+    height: 100px;
+    width: auto;
+  }
 }
 
