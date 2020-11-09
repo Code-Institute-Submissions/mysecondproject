@@ -41,16 +41,27 @@
 # Media
 ## The three images used for the carousel were made from images from google searches, there are many different images;
 ## The Service Center image
-### This image was created from several google searches.
+### I used several images taken from google searches to create this image.
+
+
 
 ## The Tool Sales image
-### This image was created from several google searches.
+### I used several images taken from google searches to create this image.
+
 
 ## The Bike Sales image
-### This image was created from several google searches.
+### I used several images taken from google searches to create this image.
 
-## The Images for the sales section
-### This image was created from several google searches.
+ 
+# The Images for the sales section
+## Mens Clothing
+### I used several images taken from google searches to create this image.
+
+## Womens Clothing
+### I used several images taken from google searches to create this image.
+
+## Safety Gear
+### I used several images taken from google searches to create this image.
 
 
 

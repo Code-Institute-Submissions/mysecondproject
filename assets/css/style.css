@@ -9,6 +9,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  margin-top: 10px;
 }
 
 /*----Nav Bar---Taken from Bootstrap, and unused in this project as it did not work--*/
@@ -117,11 +118,28 @@
 
 
 /*--- media queries ---*/
-@media screen and (min-width: 950px) {
-  .large {
+
+/*--- Media Query added to help make the images behave better for smaller screens ---*/
+@media all and (min-width: 950px) {
+  img.large {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media all and (min-width: 950px) {
+  img.csl-large {
+    height: 250px;
+    width: auto;
+  }
+}
+
+
+@media all and (max-width: 900px) {
+  img.medium {
     height: 150px;
     width: 150px;
-    }
+  }
 }
 @media screen and (min-width: 950px) {
   .csl-large {
