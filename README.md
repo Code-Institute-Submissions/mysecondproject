@@ -34,6 +34,9 @@
 ## Content
 ### The Navbar is a basic one from the Bootstrap template, but I have added more options and changed the colour of the Navbar. 
 ### I also changed the background colour scheme, this colour scheme runs through all of the linked pages in the site.
+### I also added a media query to ensure that the site works better for smaller screens.
+### Where links don't work I added a dummy page that loads and says "TBD" in large text, this was to inform the reader that the link does not work and that it's not their PC, and the site will be fixed later.
+
 
 
 
