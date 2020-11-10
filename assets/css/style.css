@@ -143,8 +143,9 @@
 }
 @media screen and (min-width: 950px) {
   .csl-large {
-    height: 350px;
+    height: 250px;
     width: auto;
+     
     }
 }
 
