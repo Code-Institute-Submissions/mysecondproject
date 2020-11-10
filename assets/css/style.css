@@ -165,12 +165,12 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+/*--@media screen and (max-width: 500px) {
   .small {
     height: 75px;
     width: 75px;
   }
-}
+--*/}
 
 @media screen and (max-width: 500px) {
   .csl-small {
