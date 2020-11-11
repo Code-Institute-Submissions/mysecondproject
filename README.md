@@ -18,9 +18,10 @@
 ### I used nothing too fancy, just some basic Bootstrap and links to pages, the site is a very simple one. I want to keep things simple, as I feel complicating things adds a layer of confusion which no one needs.
 ## Features Left to Implement
 ### The Search function could be made to work.
-### The Sales section will need to be connected to a database and add items to buy, currently the user is directed to a TBD page.
+### The Sales, Service,  sections will need to be connected to databases to add the items for the user to buy, currently the user is directed to a TBD page or some standard text.
 ### The Contact Form could send an automated email to the site’s email address.
 ### Adding more maintenance procedures and some clips of the process to aid the users learning process and help improve usability.
+### Using a Google API might allow places to ride to be added to the site.
 
 # Testing
 ### I have tried to make sure that the site behaves the same way for all type of devices using the Bootstrap grid system.

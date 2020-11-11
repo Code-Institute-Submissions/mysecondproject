@@ -127,14 +127,6 @@
   }
 }
 
-/*--@media all and (min-width: 950px) {
-  img.csl-large {
-    height: 250px;
-    width: auto;
-  }
---*/}
-
-
 @media all and (max-width: 900px) {
   img.medium {
     height: 150px;
@@ -149,8 +141,6 @@
     }
 }
 
-
-
 @media screen and (max-width: 900px) {
   .medium {
     height: 100px;
@@ -164,13 +154,6 @@
     width: auto;
   }
 }
-
-/*--@media screen and (max-width: 500px) {
-  .small {
-    height: 75px;
-    width: 75px;
-  }
---*/}
 
 @media screen and (max-width: 500px) {
   .csl-small {

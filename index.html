@@ -14,6 +14,9 @@
  </head>
   <body class="bg-header">
     <header>
+    <!-- Standard Bootstap navbar, that has been adapted for my site, I had hoped to get the text the same colour, but
+    once the text changed I lost the hambuger menu icon for the smaller screens, so far changing te colour of the hamburger 
+    has defeated me, BUT I will sort it -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light text-colour-ltgr bg-header" >
     <a class="navbar-brand text-colour-ltgr" href="#">OneStop Bike Shop</a>
     <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-label="Toggle navigation">
@@ -51,16 +54,18 @@
 
 <main>
 <br>
+    <!-- Standard Bootstap carousel, that has been adapted for my site, I found that the media query I had 
+    added for smaller screens added a conflict so I removed it -->
   <div id="myCarousel" class="carousel slider " data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
-    <div class="carousel-inner" padding-top="100px;">
-      <div class="carousel-item active" margin-top="100px;">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
         <!-- Attributes added to figure class to help the image respond better to smaller screens-->
-        <img src="assets/figures/servicecentera.png" alt="#" class="center csl-large csl-medium csl-small" margin-top="80px">
+        <img src="assets/figures/servicecentera.png" alt="#" class="center csl-large csl-medium csl-small">
         <div class="container">
           <div class="carousel-caption">
             <p><a class="btn btn-lg btn-info text-colour-ltgr" href="service.html" role="button" style="vertical-align:middle">Service Center</a></p>
@@ -73,7 +78,7 @@
         
         <div class="container">
           <div class="carousel-caption">
-            <p><a class="btn btn-lg btn-info text-colour-ltgr" href="spares.html" role="button" margin-top="30px">Tool Sales</a></p>
+            <p><a class="btn btn-lg btn-info text-colour-ltgr" href="spares.html" role="button">Tool Sales</a></p>
           </div>
         </div>
       </div>
@@ -101,6 +106,7 @@
 
   <!-- Marketing messaging and featurettes
   ================================================== -->
+  <!-- Standard Bootstap template, that has been adapted for my site -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
   <div class="container marketing Textctr text-colour-ltgr">
@@ -134,6 +140,7 @@
 
 
     <!-- START THE FEATURETTES -->
+    <!-- Standard Bootstap navbar, that I have added my text into -->
 
     <hr class="featurette-divider">
 
